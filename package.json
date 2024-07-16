@@ -1,6 +1,6 @@
 {
   "name": "bajo-db-restproxy-jsonserver",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Json Server REST Proxy Extension for Bajo Framework",
   "main": "index.js",
   "scripts": {

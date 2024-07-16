@@ -1,7 +1,7 @@
 const ops = ['lt', 'lte', 'gt', 'gte', 'ne']
 
-async function find ({ url, opts, ext, schema, filter = {}, options = {} } = {}) {
-  const { isPlainObject } = this.bajo.helper._
+async function recordFind ({ url, opts, ext, schema, filter = {}, options = {} } = {}) {
+  const { isPlainObject } = this.app.bajo.lib._
   const query = filter.query ?? {}
   for (const k in query) {
     const v = query[k]
@@ -22,4 +22,4 @@ async function find ({ url, opts, ext, schema, filter = {}, options = {} } = {})
   return { url, opts, ext }
 }
 
-export default find
+export default recordFind
