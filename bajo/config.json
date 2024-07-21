@@ -1,4 +1,4 @@
 {
-  "alias": "rpxjsonserver",
+  "alias": "rpxjs",
   "dependencies": ["bajo-db-restproxy"]
 }
